@@ -5,7 +5,7 @@
     "bootstrap": "lerna bootstrap --hoist",
     "clean": "lerna run clean",
     "build": "lerna run build",
-    "publish": "lerna publish",
+    "publish": "lerna publish --registry=https://registry.npmjs.org",
     "clean:all": "npm run clean && lerna clean -y"
   },
   "devDependencies": {
