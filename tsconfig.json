@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node", // find module in node_modules
+	  "module": "commonjs",
+    "target": "es5",
+    "declaration": true,  // create *.d.ts
+    "sourceMap": true     // create *.js.map
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
