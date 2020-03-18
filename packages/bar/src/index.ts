@@ -1,0 +1,1 @@
+export { logMeaningOfLife } from './bar';

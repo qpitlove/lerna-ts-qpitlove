@@ -1,3 +1,7 @@
-import { meaningOfLife } from '@qpitlove/foo';
+import {meaningOfLife} from '@qpitlove/foo';
 
-console.log(meaningOfLife);
+export const logMeaningOfLife = () => {
+	console.log(meaningOfLife);
+}
+
+logMeaningOfLife();

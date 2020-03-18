@@ -6,8 +6,8 @@
   "keywords": [],
   "author": "qpitlove <qpitlove@gmail.com>",
   "license": "ISC",
-  "main": "dist/foo",
-  "module": "dist/esm/foo",
+  "main": "dist/index",
+  "module": "dist/esm/index",
   "directories": {
     "lib": "dist",
     "test": "__tests__"

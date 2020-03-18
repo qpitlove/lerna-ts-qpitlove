@@ -1,0 +1,1 @@
+export { meaningOfLife } from './foo';
