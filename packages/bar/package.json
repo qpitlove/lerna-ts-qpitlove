@@ -21,7 +21,7 @@
   "scripts": {
     "build": "npm run clean && npm run compile && npm run build:esm",
     "build:esm": "tsc --module es2015 --target es5 --outDir dist/esm",
-    "compile": "tsc src/index.ts --outDir dist",
+    "compile": "tsc",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
