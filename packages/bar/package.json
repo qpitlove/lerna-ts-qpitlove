@@ -1,9 +1,14 @@
 {
   "name": "@qpitlove/bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "description": "Example Lib for lerna publish",
-  "keywords": ["lerna", "publish", "example", "qpitlove"],
+  "keywords": [
+    "lerna",
+    "publish",
+    "example",
+    "qpitlove"
+  ],
   "author": "qpitlove <qpitlove@gmail.com> (https://github.com/qpitlove)",
   "license": "MIT",
   "main": "dist/index",
@@ -32,7 +37,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@qpitlove/foo": "^1.0.1"
+    "@qpitlove/foo": "^1.0.2"
   },
   "bugs": {
     "url": "https://github.com/qpitlove/lerna-ts-qpitlove/issues"
