@@ -5,7 +5,8 @@
 ## Usage
 
 ```
-import foo from 'foo';
+import {meaningOfLife} from 'foo';
 
 // TODO: DEMONSTRATE API
+console.log(meaningOfLife);
 ```

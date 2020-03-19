@@ -2,10 +2,10 @@
   "name": "@qpitlove/bar",
   "version": "1.0.1",
   "private": false,
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
-  "keywords": [],
-  "author": "qpitlove <qpitlove@gmail.com>",
-  "license": "ISC",
+  "description": "Example Lib for lerna publish",
+  "keywords": ["lerna", "publish", "example", "qpitlove"],
+  "author": "qpitlove <qpitlove@gmail.com> (https://github.com/qpitlove)",
+  "license": "MIT",
   "main": "dist/index",
   "module": "dist/esm/index",
   "directories": {
@@ -16,7 +16,11 @@
     "dist"
   ],
   "publishConfig": {
-    "access": "public"
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qpitlove/lerna-ts-qpitlove.git"
   },
   "scripts": {
     "build": "npm run clean && npm run compile && npm run build:esm",
@@ -29,5 +33,9 @@
   },
   "dependencies": {
     "@qpitlove/foo": "^1.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/qpitlove/lerna-ts-qpitlove/issues"
+  },
+  "homepage": "https://github.com/qpitlove/lerna-ts-qpitlove#readme"
 }
