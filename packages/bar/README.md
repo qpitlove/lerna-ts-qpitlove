@@ -5,7 +5,8 @@
 ## Usage
 
 ```
-import bar from 'bar';
+import {logMeaningOfLife} from 'bar';
 
 // TODO: DEMONSTRATE API
+logMeaningOfLife();
 ```
